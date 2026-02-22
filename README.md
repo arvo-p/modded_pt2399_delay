@@ -1,1 +1,1 @@
-"# modded_pt2399_delay" 
+Based on TweakTone's delay pedal, this PCB design is one sided.
