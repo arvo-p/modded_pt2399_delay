@@ -1,0 +1,66 @@
+(footprint "SQUARE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Square Pad\n\n• drill diameter 0.7 mm")
+	(property "Reference" "REF**"
+		(at 1.27 0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4c8bc4b5-56aa-4ae7-a08f-daa137a58b33")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "47902659-2f7d-45a2-8c7e-80bcf89cc5e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8edbc2fe-b989-4acf-9c4f-210df1460ccc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ed24a64-ff58-423b-899d-6ead4cf39dec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 1.8144 1.8144)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b8e85c56-0d9c-4905-bc75-e0ab0d6c3cbd")
+	)
+	(embedded_fonts no)
+)

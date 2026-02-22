@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TweakTone_V1-2")(type "KiCad")(uri "$(KIPRJMOD)/TweakTone_V1-2.pretty")(options "")(descr ""))
+)

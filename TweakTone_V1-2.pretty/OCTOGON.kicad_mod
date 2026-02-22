@@ -1,0 +1,69 @@
+(footprint "OCTOGON"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Octogonal Pad\n\n• drill diameter 0.7 mm")
+	(property "Reference" "REF**"
+		(at 1.27 0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b460676e-93a7-4feb-8dec-17496a1cdcd5")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "991c7ea3-4b19-4bd8-aeb1-89de4d261474")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2112de3c-8e23-4072-8481-d52eb0fd5b20")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "063cb01e-699b-483b-8f62-2b7e8c906623")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.8144 1.8144)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(chamfer_ratio 0.2928932188)
+		(chamfer top_left top_right bottom_left bottom_right)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b25c8eff-2c96-457f-98fd-bb7cbed172b6")
+	)
+	(embedded_fonts no)
+)

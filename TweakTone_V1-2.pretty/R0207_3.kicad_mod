@@ -1,0 +1,182 @@
+(footprint "R0207_3"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RESISTOR\n\nlength: 6mm\nformat: 0.1\" (perfboard)\nspacing: 3 holes\n\nThis length resistor applies to 1/4 watt metal film.")
+	(property "Reference" "REF**"
+		(at -1.27 0.635 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d0e33e06-9278-44e4-b576-f8c64761a32e")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "R0207_3"
+		(at -1.27 2.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "50dce31d-d42f-4b0f-9053-7e49aec0edf6")
+		(effects
+			(font
+				(size 1.1176 1.1176)
+				(thickness 0.1524)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7b0aeca-a27a-48db-aaab-9e8403bd311d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc90d168-f8d9-402b-ac73-efb927d77753")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.683 0.762)
+		(end -2.683 -0.762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2bffe42-6b59-4e9f-844f-960aaa3c1e2c")
+	)
+	(fp_line
+		(start 2.429 -1.016)
+		(end -2.429 -1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c28f7533-454b-4fe6-85b7-0d8ef2164a1a")
+	)
+	(fp_line
+		(start 2.429 1.016)
+		(end -2.429 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5ed8fe5-32d2-4a66-8bd9-083d52df47cf")
+	)
+	(fp_line
+		(start 2.683 0.762)
+		(end 2.683 -0.762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b5f55b6-036e-4a7c-8278-61470e3bb9e6")
+	)
+	(fp_arc
+		(start -2.683 -0.762)
+		(mid -2.608605 -0.941605)
+		(end -2.429 -1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "035b299c-9f88-414f-9789-f08e49eda164")
+	)
+	(fp_arc
+		(start -2.429 1.016)
+		(mid -2.608605 0.941605)
+		(end -2.683 0.762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f73b8bf2-fa60-4689-a617-ae228541e4f2")
+	)
+	(fp_arc
+		(start 2.429 -1.016)
+		(mid 2.608605 -0.941605)
+		(end 2.683 -0.762)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d3de5f68-94de-41e7-9fcd-933f9031889d")
+	)
+	(fp_arc
+		(start 2.683 0.762)
+		(mid 2.608605 0.941605)
+		(end 2.429 1.016)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "848cc84a-a901-46a5-b575-7a0b34d2ef01")
+	)
+	(fp_line
+		(start -3.302 0)
+		(end -2.9116 0)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "31887da1-b1d2-43af-8805-b5eabe96da99")
+	)
+	(fp_line
+		(start 2.921 0)
+		(end 3.3114 0)
+		(stroke
+			(width 0.6096)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a116cc1-0130-4846-b26c-90a6b2501a44")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.8144 1.8144)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b08d30f9-4f59-4482-85cb-98b3f221d82c")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.8144 1.8144)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "fc72fb01-77c6-42a5-ad45-a502ce3fdc5e")
+	)
+	(embedded_fonts no)
+)
