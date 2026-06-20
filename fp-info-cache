@@ -1,4 +1,4 @@
-27219017742349286
+27245594732364381
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107120,6 +107120,111 @@ igbt diode module
 0
 25
 25
+TweakTone_V1-2
+16MM
+Potentiometer{return}{return}potentiometer for showing off-board connections
+
+0
+3
+3
+TweakTone_V1-2
+050X030_025
+5mm x 3mm, 2.5mm lead spacing 
+
+0
+2
+2
+TweakTone_V1-2
+050_020_1
+5mm diameter, 2mm lead spacing, 0.1" pad spacing
+
+0
+2
+2
+TweakTone_V1-2
+072X025
+7.2mm x 2.5mm{return}{return}WIMA MKS2, MKP2
+
+0
+2
+2
+TweakTone_V1-2
+072X045
+7.2mm x 4.5mm{return}{return}WIMA MKP2, MKS2
+
+0
+2
+2
+TweakTone_V1-2
+2262_TRIM
+Potentiometer{return}{return}1/4" on-board trim potentiometer
+
+0
+3
+3
+TweakTone_V1-2
+DIL08
+Dual In Line Package
+
+0
+8
+8
+TweakTone_V1-2
+DIL16
+Dual In Line Package
+
+0
+16
+16
+TweakTone_V1-2
+DO41-3
+DO-41 0.3" pad spacing
+
+0
+2
+2
+TweakTone_V1-2
+OCTOGON
+Octogonal Pad{return}{return}• drill diameter 0.7 mm
+
+0
+1
+1
+TweakTone_V1-2
+PYRAMIDSUN
+
+
+0
+0
+0
+TweakTone_V1-2
+R0207_3
+RESISTOR{return}{return}length: 6mm{return}format: 0.1" (perfboard){return}spacing: 3 holes{return}{return}This length resistor applies to 1/4 watt metal film.
+
+0
+2
+2
+TweakTone_V1-2
+SMALL-5MM
+Small Box Cap
+
+0
+2
+2
+TweakTone_V1-2
+SQUARE
+Square Pad{return}{return}• drill diameter 0.7 mm
+
+0
+1
+1
+TweakTone_V1-2
+TO92-
+
+
+0
+3
+3
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
